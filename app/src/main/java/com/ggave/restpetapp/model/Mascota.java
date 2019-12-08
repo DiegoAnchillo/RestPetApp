@@ -5,6 +5,7 @@ public class Mascota {
     private String nombre;
     private String raza;
     private int edad;
+    private String imagen;
 
     public Long getId() {
         return id;
@@ -38,6 +39,14 @@ public class Mascota {
         this.edad = edad;
     }
 
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
     @Override
     public String toString() {
         return "Mascota{" +
@@ -45,6 +54,7 @@ public class Mascota {
                 ", nombre='" + nombre + '\'' +
                 ", raza='" + raza + '\'' +
                 ", edad=" + edad +
+                ", imagen='" + imagen + '\'' +
                 '}';
     }
 }
