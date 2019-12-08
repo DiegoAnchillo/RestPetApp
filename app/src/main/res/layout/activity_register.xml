@@ -9,17 +9,17 @@
     tools:context=".activities.RegisterActivity">
 
     <EditText
-        android:id="@+id/nombre"
+        android:id="@+id/nombre_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese su nombre"/>
     <EditText
-        android:id="@+id/correo"
+        android:id="@+id/email_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese su correo"/>
     <EditText
-        android:id="@+id/contraseña"
+        android:id="@+id/password_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese una contraseña"/>
